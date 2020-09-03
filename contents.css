@@ -4,9 +4,29 @@
 
 body{
   background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-  color: #000000;
+  color: #ccffff;
 }
 
 .yaruki{
   color: #ff0000;
+}
+
+@@media (max-width: 670px ) {
+  body{
+    background-image: url(https://images.unsplash.com/photo-1495576775051-8af0d10f19b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    color: #ccffff;
+  }
+  h1{
+    font-size: 90px;
+  }
+  h2{
+    font-size: 80px;
+  }
+  h3{
+    font-size: 70px;
+  }
+  li{
+    font-size: 45px;
+  }
+
 }
